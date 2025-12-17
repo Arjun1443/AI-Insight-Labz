@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Mini & Major Projects",
+    "description": "Expert guidance for academic projects.",
+    "icon": "Code",
+    "features": ["B.Tech / M.Tech / MCA", "AI, ML, Java, Python", "IEEE Standards", "Real-time Scenarios"]
+  },
+  {
+    "title": "Online Trainings",
+    "description": "Industry-standard skill development courses.",
+    "icon": "Monitor",
+    "features": ["Java Full Stack", "Python Full Stack", "AI / ML & Data Science", "Cloud Computing Basics"]
+  },
+  {
+    "title": "Training & Placements",
+    "description": "Bridging the gap between campus and corporate.",
+    "icon": "Briefcase",
+    "features": ["Job-oriented Curriculum", "Resume Building", "Mock Interviews", "Placement Tie-ups"]
+  },
+  {
+    "title": "Corporate Training",
+    "description": "Upskilling workforce for better productivity.",
+    "icon": "Users",
+    "features": ["Custom Training Programs", "Technology Workshops", "Leadership Seminars", "Hands-on Sessions"]
+  },
+  {
+    "title": "App & Web Development",
+    "description": "End-to-end software solutions for business.",
+    "icon": "Laptop",
+    "features": ["Responsive Websites", "Full-stack Applications", "Mobile Apps (Android/iOS)", "Maintenance & Support"]
+  },
+  {
+    "title": "Consultancy Services",
+    "description": "Strategic academic and recruitment partnerships.",
+    "icon": "Building",
+    "features": ["College FDPs", "Campus Recruitment Training", "Technical Consultancy", "Guest Lectures"]
+  }
+]

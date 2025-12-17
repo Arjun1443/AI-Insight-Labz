@@ -1,0 +1,37 @@
+[
+  {
+    "id": "java-fs",
+    "title": "Java Full Stack",
+    "overview": "Master backend and frontend development with Java, Spring Boot, React, and MySQL.",
+    "duration": "6 Months",
+    "technologies": ["Java", "Spring Boot", "React", "Hibernate", "MySQL"]
+  },
+  {
+    "id": "python-fs",
+    "title": "Python Full Stack",
+    "overview": "Comprehensive training in Python, Django/Flask, and modern frontend frameworks.",
+    "duration": "5 Months",
+    "technologies": ["Python", "Django", "Flask", "JavaScript", "PostgreSQL"]
+  },
+  {
+    "id": "ai-ml",
+    "title": "AI & Machine Learning",
+    "overview": "Deep dive into algorithms, neural networks, and predictive modeling using Python.",
+    "duration": "6 Months",
+    "technologies": ["Python", "TensorFlow", "Pandas", "Scikit-Learn", "Keras"]
+  },
+  {
+    "id": "data-science",
+    "title": "Data Science",
+    "overview": "Learn to analyze complex data sets and derive actionable insights for business.",
+    "duration": "5 Months",
+    "technologies": ["Python", "R", "Tableau", "SQL", "Statistics"]
+  },
+  {
+    "id": "web-dev",
+    "title": "Web Development",
+    "overview": "Build responsive websites from scratch using HTML5, CSS3, and JavaScript.",
+    "duration": "3 Months",
+    "technologies": ["HTML5", "CSS3", "JavaScript", "Bootstrap", "Git"]
+  }
+]

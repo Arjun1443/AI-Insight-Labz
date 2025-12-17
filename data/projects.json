@@ -1,0 +1,47 @@
+[
+  {
+    "category": "AI / ML",
+    "titles": [
+      "Smart Traffic Management System using Computer Vision",
+      "Disease Prediction using Machine Learning",
+      "Fake News Detection using NLP",
+      "Customer Churn Prediction for Telecom"
+    ]
+  },
+  {
+    "category": "Java",
+    "titles": [
+      "E-Commerce Platform with Microservices",
+      "Online Banking System",
+      "Hospital Management System",
+      "Library Management System"
+    ]
+  },
+  {
+    "category": "Python",
+    "titles": [
+      "Automated Stock Trading Bot",
+      "Student Attendance System via Face Recognition",
+      "Voice Assistant for Desktop",
+      "Weather Forecasting App"
+    ]
+  },
+  {
+    "category": "Web Development",
+    "titles": [
+      "Real-estate Management Portal",
+      "Online Food Ordering System",
+      "Portfolio Generator Tool",
+      "Collaborative Task Manager"
+    ]
+  },
+  {
+    "category": "IoT",
+    "titles": [
+      "Smart Home Automation System",
+      "IoT Based Health Monitoring System",
+      "Smart Agriculture System",
+      "Garbage Monitoring System"
+    ]
+  }
+]

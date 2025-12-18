@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Facebook, Twitter, Linkedin, Instagram, MessageCircle, Phone, Mail, MapPin, Brain } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, MessageCircle, Phone, Mail, MapPin } from 'lucide-react';
 import { COMPANY_NAME, ADDRESS, PHONE_NUMBER, EMAIL_ADDRESS } from '../constants';
+import logo from '../AI_Insight_Labz Logo.png';
 
 const Footer: React.FC = () => {
   return (
@@ -12,20 +13,7 @@ const Footer: React.FC = () => {
           {/* Brand Column */}
           <div>
             <NavLink to="/" className="flex items-center gap-1 mb-6 group">
-              {/* Logo Graphic */}
-              <div className="flex items-end relative h-10 pb-1">
-                 <span className="text-4xl font-extrabold bg-gradient-to-b from-yellow-300 via-yellow-500 to-yellow-600 bg-clip-text text-transparent leading-[0.8] select-none" style={{ fontFamily: 'Times New Roman, serif' }}>
-                   A
-                 </span>
-                 <div className="flex flex-col items-center justify-end h-full ml-[-2px] mb-[1px]">
-                   <Brain className="w-5 h-5 text-orange-500" strokeWidth={2.5} />
-                   <div className="w-2.5 h-4 bg-gradient-to-b from-orange-400 to-orange-600 rounded-sm mt-0.5"></div>
-                 </div>
-              </div>
-              <div className="flex flex-col justify-center ml-2 pl-2 h-8 border-l border-gray-700">
-                <span className="text-base font-bold text-gray-300 tracking-[0.2em] leading-none group-hover:text-white transition-colors">INSIGHT</span>
-                <span className="text-base font-bold text-gray-300 tracking-[0.2em] leading-none mt-1 group-hover:text-white transition-colors">LABZ</span>
-              </div>
+              <img src={logo} alt="AI Insight Labz logo" className="h-20 object-contain" />
             </NavLink>
 
             <p className="text-gray-400 mb-6 leading-relaxed text-sm sm:text-base">

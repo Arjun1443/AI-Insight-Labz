@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Menu, X, Brain } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logo from '../AI_Insight_Labz Logo.png';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,32 +24,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16 md:h-20">
           <div className="flex items-center">
             <NavLink to="/" className="flex-shrink-0 flex items-center gap-1 group" onClick={() => setIsOpen(false)}>
-              
-              {/* Logo Graphic Part */}
-                
-      
-            
-              
-              
-              {/*
-              <div className="flex items-end relative h-10 md:h-12 pb-1">
-                 {/* Gold A */}      
-                 <span className="text-4xl md:text-5xl font-extrabold bg-gradient-to-b from-yellow-300 via-yellow-500 to-yellow-600 bg-clip-text text-transparent leading-[0.8] select-none" style={{ fontFamily: 'Times New Roman, serif' }}>
-                   A
-                 </span>
-                 
-                 {/* Brain I */}    
-                 <div className="flex flex-col items-center justify-end h-full ml-[-2px] mb-[2px]">
-                   <Brain className="w-5 h-5 md:w-6 md:h-6 text-orange-500" strokeWidth={2.5} />
-                   <div className="w-2.5 h-4 md:w-3 md:h-5 bg-gradient-to-b from-orange-400 to-orange-600 rounded-sm mt-0.5 shadow-sm"></div>
-                 </div>
-              </div>
-
-              {/* Logo Text Part */}        
-              <div className="flex flex-col justify-center ml-2 border-l border-gray-200 pl-2 md:pl-3 h-8 md:h-10">
-                 <span className="text-sm md:text-lg font-bold text-gray-500 tracking-[0.2em] leading-none">INSIGHT</span>
-                 <span className="text-sm md:text-lg font-bold text-gray-500 tracking-[0.2em] leading-none mt-0.5 md:mt-1">LABZ</span>
-              </div>
+              <img src={logo} alt="AI Insight Labz logo" className="h-20 md:h-15 object-contain" />
             </NavLink>
           </div>
 
